@@ -14,8 +14,10 @@ spec:
     ##  - we use the 'deploykf/deploykf' repo so we can read its 'sample-values.yaml'
     ##    file, but you may use any repo (even one with no files)
     ##
-    repoURL: "https://github.com/deployKF/deployKF.git"
-    targetRevision: "v0.1.4"
+    #repoURL: "https://github.com/deployKF/deployKF.git"
+    repoURL: "https://github.com/BY-Product-Development/exec-ml-kubeflow-deploykf.git"
+    #targetRevision: "v0.1.3" # <-- replace with a deployKF repo tag!
+    targetRevision: "aks-dev3-kubeflow__deploykf015" # <-- replace with a deployKF repo tag!
     path: "."
 
     ## plugin configuration

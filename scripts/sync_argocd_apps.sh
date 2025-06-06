@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/opt/homebrew/bin/bash
+#####!/usr/bin/env bash
 
 set -euo pipefail
 
